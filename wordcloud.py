@@ -13,5 +13,5 @@ wordcloud = WordCloud().generate(text)
 
 # Display the word cloud
 plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis("off")
+plt.axis(|"off")
 plt.show()
